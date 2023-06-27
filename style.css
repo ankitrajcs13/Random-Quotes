@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url("https://wallpaperset.com/w/full/2/5/9/172333.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.container {
+    max-width: 600px;
+    margin: 10% auto;
+    padding: 20px;
+    background-image: linear-gradient(to bottom, #95c2ce, #353fd1);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.quote {
+    margin-top: 50px;
+}
+
+#quote {
+    font-size: 24px;
+    font-style: italic;
+}
+
+#author {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+#new-quote {
+    margin-top: 30px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.button {
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.2s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+  }
